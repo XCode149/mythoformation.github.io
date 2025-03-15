@@ -45,6 +45,12 @@
 </head>
 <body>
     <div class="warning">⚠ ATTENTION ⚠</div>
-    <div class="minecraft-text" class="hidden">Le site est en cours de création...</div>
+    <div id="contenu" class="minecraft-text" class="hidden">Le site est en cours de création...</div>
 </body>
+
+<script>
+    function toggleVisibility() {
+        document.getElementById("contenu").classList.toggle("hidden");
+    }
+</script>
 </html>
