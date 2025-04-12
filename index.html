@@ -1,57 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mythoformation</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-        
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: white;
-            color: white;
-            text-align: center;
-            flex-direction: column;
-        }
-
-        .warning {
-            font-family: 'Press Start 2P', cursive;
-            background: yellow;
-            color: black;
-            padding: 20px;
-            font-size: 2rem;
-            font-weight: bold;
-            border: 5px solid black;
-            display: inline-block;
-            margin-bottom: 20px;
-            box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8);
-        }
-
-        .minecraft-text {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            color: black;
-            text-shadow: 3px 3px 0px black;
-        }
-        h1 {
-            text-align: center;
-             font-family: 'Press Start 2P', cursive;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            color: black;
-            text-shadow: 3px 3px 0px black;
-  }
-        
-    </style>
+  <meta charset="UTF-8">
+  <title>Mythologie Grecque</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fdf9f3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3e2c23;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.01);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #462f20;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee1cd;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-    <h1>MYTHOFORMATION</h1>
-    <p class="minecraft-text">Ce site est créé pour vous informez sur la mythologie grecque.</p>
-</body>
 
+<header>
+  <h1>Bienvenue dans l'univers de la Mythologie Grecque</h1>
+  <p>Découvrez les dieux, héros, lieux et créatures qui peuplent les légendes anciennes</p>
+</header>
+
+<div class="container">
+
+  <!-- Dieux et déesses -->
+  <div class="card"><h2>⚡ Zeus</h2><p>Roi des dieux, dieu du ciel et de la foudre. Il règne depuis le mont Olympe avec son puissant éclair.</p></div>
+  <div class="card"><h2>🌊 Poséidon</h2><p>Dieu des mers, frère de Zeus. Il contrôle les océans et les séismes avec son trident.</p></div>
+  <div class="card"><h2>🕳️ Hadès</h2><p>Dieu des Enfers, maître du royaume des morts. Il veille sur les âmes et garde les trésors souterrains.</p></div>
+  <div class="card"><h2>🛡️ Athéna</h2><p>Déesse de la sagesse, de la guerre stratégique et des arts. Née du crâne de Zeus, elle est la protectrice d’Athènes.</p></div>
+  <div class="card"><h2>🔥 Arès</h2><p>Dieu de la guerre brutale. Fils de Zeus et Héra, il incarne la violence du combat.</p></div>
+  <div class="card"><h2>💘 Aphrodite</h2><p>Déesse de l’amour et de la beauté, née de la mer. Elle charme dieux et mortels.</p></div>
+  <div class="card"><h2>🌙 Artémis</h2><p>Déesse de la chasse, de la nature sauvage et de la lune. Sœur jumelle d’Apollon.</p></div>
+  <div class="card"><h2>🎵 Apollon</h2><p>Dieu du soleil, de la musique, de la poésie et de la divination. Il guide la lumière et l’harmonie.</p></div>
+  <div class="card"><h2>🍷 Dionysos</h2><p>Dieu du vin, de la fête et de la folie. Protecteur du théâtre et de la liberté des sens.</p></div>
+  <div class="card"><h2>💍 Héra</h2><p>Reine des dieux, épouse de Zeus, déesse du mariage et de la fidélité.</p></div>
+  <div class="card"><h2>👨‍🏭 Héphaïstos</h2><p>Dieu du feu et de la forge, maître artisan des dieux. Mari d’Aphrodite.</p></div>
+  <div class="card"><h2>🛍️ Hermès</h2><p>Messager des dieux, dieu des voyageurs, des voleurs et du commerce. Il guide aussi les âmes aux Enfers.</p></div>
+  <div class="card"><h2>🌾 Déméter</h2><p>Déesse de l’agriculture et des moissons. Mère de Perséphone.</p></div>
+  <div class="card"><h2>🌌 Hestia</h2><p>Déesse du foyer, du feu sacré et de la vie domestique. Elle symbolise la paix et la stabilité.</p></div>
+
+  <!-- Héros et créatures -->
+  <div class="card"><h2>🧠 Ulysse</h2><p>Héros rusé de l’Odyssée, roi d’Ithaque. Célèbre pour son voyage périlleux de retour après la guerre de Troie.</p></div>
+  <div class="card"><h2>🦁 Héraclès (Hercule)</h2><p>Fils de Zeus, héros célèbre pour ses douze travaux. Symbole de force et de courage.</p></div>
+  <div class="card"><h2>🐴 Achille</h2><p>Héros de la guerre de Troie, invincible sauf au talon. Guerrier légendaire de l’Iliade.</p></div>
+  <div class="card"><h2>🐍 Méduse</h2><p>Gorgone à la chevelure de serpents. Un seul regard d’elle pétrifie quiconque la voit.</p></div>
+  <div class="card"><h2>🦅 Prométhée</h2><p>Titan rebelle, il a volé le feu pour l’offrir aux humains. Condamné par Zeus à un châtiment éternel.</p></div>
+  <div class="card"><h2>🦄 Pégase</h2><p>Cheval ailé né du sang de Méduse. Monture légendaire des héros.</p></div>
+  <div class="card"><h2>🧌 Minotaure</h2><p>Créature mi-homme mi-taureau, enfermée dans le labyrinthe de Crète. Vaincu par Thésée.</p></div>
+  <div class="card"><h2>🎯 Thésée</h2><p>Héros d’Athènes, célèbre pour avoir tué le Minotaure et unifié les cités.</p></div>
+  <div class="card"><h2>🌬️ Éole</h2><p>Gardien des vents. Il offre parfois son aide à ceux qui le méritent, comme Ulysse.</p></div>
+  <div class="card"><h2>⚖️ Perséphone</h2><p>Fille de Déméter, épouse d’Hadès. Reine des Enfers, elle incarne le cycle des saisons.</p></div>
+
+  <!-- Lieux mythiques -->
+  <div class="card"><h2>🏔️ Mont Olympe</h2><p>Résidence céleste des dieux de l’Olympe. Lieu sacré inaccessible aux mortels.</p></div>
+  <div class="card"><h2>🪦 Les Enfers</h2><p>Royaume des morts dirigé par Hadès. Composé de plusieurs zones dont le Tartare et les Champs Élysées.</p></div>
+  <div class="card"><h2>🌊 L'Atlantide</h2><p>Cité légendaire engloutie. Symbole de puissance disparue et de mystère.</p></div>
+  <div class="card"><h2>🏛️ Delphes</h2><p>Sanctuaire d’Apollon. Connue pour son oracle, la Pythie, qui délivrait les prophéties divines.</p></div>
+  <div class="card"><h2>🧵 Le Labyrinthe</h2><p>Construit par Dédale en Crète pour enfermer le Minotaure. Complexe et trompeur, il est une épreuve en soi.</p></div>
+
+</div>
+
+<footer>
+  © 2025 - Mythologie Grecque | Conçu pour l’exploration et l’émerveillement ✨
+</footer>
+
+</body>
 </html>
